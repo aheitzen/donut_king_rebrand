@@ -19,7 +19,6 @@ body {
 	background-attachment: fixed; 
 	background-size: cover;
 	background-color: black; 
-	display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -31,11 +30,18 @@ body {
    	margin: 0 auto;
 }
 
+div#button_div {
+	display: inline;
+	text-align: center;
+
+
+}
 
 
 
 
-#container .landing_page_button {
+
+.landing_page_button {
 	height: 50px;
 	width: 200px;
 	background: transparent;
