@@ -46,10 +46,10 @@ nav li ul  {
 }
 
 .parallax-window {
-    min-height: 400px;
+    min-height: 300px;
     background: transparent;
     background-color: rgba(0, 0, 0, 0.6);
-    
+
 }
 
 #nav-header {
@@ -92,17 +92,32 @@ div#button_div {
 
 }
 
-
+.white-line {
+	height: 5px;
+	width: 110%;
+	background-color: white;
+}
 
 p {
 	color: white;
-	display: inline;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 5px;
 	font-size: 4em;
-	margin-top: 100px;
+}
 
+#about-section {
+	width: 100%;
+	height: 400px;
+	background-color: rgba(0,0,0,0.9);
 
-
+	/*background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(http://bit.ly/2cQtu3h);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	background-color: black; 
+    justify-content: center;
+    align-items: center;*/
+	
 }
 
