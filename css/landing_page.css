@@ -49,6 +49,7 @@ nav li ul  {
     min-height: 300px;
     background: transparent;
     background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 100px;
 
 }
 
@@ -71,7 +72,7 @@ div#button_div {
 	text-align: center;
 }
 
-.landing_page_button {
+.landing_page_button  {
 	height: 50px;
 	width: 200px;
 	background: transparent;
@@ -86,29 +87,47 @@ div#button_div {
 	cursor: pointer;
 }
 
+#menu-button {
+	height: 50px;
+	width: 200px;
+	background: transparent;
+	border: 2px white solid;
+	outline: none;
+	color: white;
+	margin: 10px;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+	padding: 10px;
+	cursor: pointer;
+
+}
+
 .landing_page_button:hover {
 	background-color: white;
 	color: black;
 
 }
 
-.white-line {
-	height: 5px;
-	width: 110%;
-	background-color: white;
-}
+
 
 p {
 	color: white;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 5px;
 	font-size: 4em;
+	margin: 0;
+
+}
+
+.glyphicon {
+	font-size: 1em;
 }
 
 #about-section {
 	width: 100%;
 	height: 400px;
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0.6);
 
 	/*background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(http://bit.ly/2cQtu3h);
 	background-position: center center;

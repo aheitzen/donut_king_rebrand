@@ -4,6 +4,11 @@ $(document).ready(function (){
         	scrollTop: $("#coffee-parallax-view").offset().top
         }, 1000);
   	});
+  	$("#menu-button").click(function (){
+    	$('html, body').animate({
+        	scrollTop: $("#menu-section").offset().top
+        }, 1000);
+  	});
 });
 
 
@@ -11,7 +16,8 @@ $(document).ready(function (){
 
 
 $(document).ready(function() {
-	$('.parallax-window').parallax({imageSrc: 'images/about-photo.jpg'});
-	// $('.parallax-window').parallax({imageSrc: 'images/typewritter.jpeg'})
+	$('.parallax-window').parallax({imageSrc: 'images/about-photo.jpg'})
 	// $('.parallax-window').parallax({imageSrc: 'images/phone.jpeg'});
+	$('.parallax-window').parallax({imageSrc: 'images/menu.jpg'});
+	
 });
