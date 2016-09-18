@@ -16,8 +16,7 @@ $(document).ready(function (){
 
 
 $(document).ready(function() {
-	$('.parallax-window').parallax({imageSrc: 'images/about-photo.jpg'})
+	$('.parallax-window').parallax({imageSrc: 'images/about-photo.jpg' imageSrc: 'images/menu.jpg'});
 	// $('.parallax-window').parallax({imageSrc: 'images/phone.jpeg'});
-	$('.parallax-window').parallax({imageSrc: 'images/menu.jpg'});
-	
+
 });

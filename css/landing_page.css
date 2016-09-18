@@ -109,6 +109,12 @@ div#button_div {
 
 }
 
+#menu-button:hover {
+	background-color: white;
+	color: black;
+
+}
+
 
 
 p {
