@@ -9,14 +9,15 @@ $(document).ready(function (){
         	scrollTop: $("#menu-section").offset().top
         }, 1000);
   	});
-});
-
-
-
-
-
-$(document).ready(function() {
-	// $('.parallax-window').parallax({imageSrc: 'images/about-photo.jpg' imageSrc: 'images/menu.jpg'});
-	// $('.parallax-window').parallax({imageSrc: 'images/phone.jpeg'});
+    $("#contactLink").click(function (){
+      $('html, body').animate({
+          scrollTop: $("#contactSection").offset().top
+        }, 1000);
+    });
+    $("#charityLink").click(function (){
+      $('html, body').animate({
+          scrollTop: $("#charitySection").offset().top
+        }, 1000);
+    });
 
 });
